@@ -1,14 +1,14 @@
 # trafficLightSystem
 This project implements a basic traffic light control system using an Arduino board. It simulates vehicle and pedestrian signals using LEDs and a passive buzzer with time-based state transitions.
 
-**Features**
+<ins>**Features**</ins>
 
-1. Vehicle signals (Red, Green, Blue as Yellow)
-2. Pedestrian indicator
-3. Passive buzzer for crossing alert
-4. Non-blocking timing using millis()
+- Vehicle signals (Red, Green, Blue as Yellow)
+- Pedestrian indicator
+- Passive buzzer for crossing alert
+- Non-blocking timing using millis()
 
-**Components**
+<ins>**Components**</ins>
 
 1. Arduino board
 2. Red, Green, Blue LEDs
@@ -16,7 +16,7 @@ This project implements a basic traffic light control system using an Arduino bo
 4. 220Ω resistors
 5. Breadboard and jumper wires
 
-**System operation**
+<ins>**System operation**</ins>
 
 The system automatically cycles through traffic states :
 >Green → Yellow → Red → Pedestrian
